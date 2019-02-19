@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import{Tabs, Tab, Card, CardText, CardTitle, Button, Grid,Cell, CardActions} from 'react-mdl';
 
 
-class Projects extends Component {
+class About extends Component {
+    
     
     constructor(props){
         super(props);
         this.state = {activeTab: 0};
     }
     
+
     toggleCategories(){
         if(this.state.activeTab===0)
         {
@@ -184,14 +186,15 @@ class Projects extends Component {
     }
     
     
+
     render() {
         return (
             <div className="category-tabs">
             <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                <Tab>Figma</Tab>
-                <Tab>Three.js</Tab>
-                <Tab>Photoshop</Tab>
-                <Tab>Solidworks</Tab>
+                <Tab>Skills</Tab>
+                <Tab>Experiences</Tab>
+                <Tab>Education</Tab>
+                <Tab>Interests</Tab>
             </Tabs>
             <section className="projects-grid">
             <Grid>
@@ -206,4 +209,4 @@ class Projects extends Component {
     }
 }
 
-export default Projects;
+export default About;

@@ -9,7 +9,7 @@ class Home extends Component {
                 <Cell col={12}>
                     <img src="https://www.usukraine.org/wp-content/plugins/our-team-enhanced/assets/images/default-avatar.png" alt="ID" className="ID-img" />
                     <div className="banner-text">
-                    <h1>Developper Full Satck</h1>
+                    <h1>Simon Lhuillier</h1>
                     <hr/>
                     <div className="logo">
                     <a href="http://google.com" target="_blank"><i class="fa fa-css3-alt" aria-hidden="true"></i></a>
